@@ -1,0 +1,23 @@
+{
+  "name": "webSocketNodeJS",
+  "version": "1.0.0",
+  "description": "web socket\r impelement form chat message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravelwareFahmi/webSocketNodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravelwareFahmi/webSocketNodeJS/issues"
+  },
+  "homepage": "https://github.com/ravelwareFahmi/webSocketNodeJS#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
