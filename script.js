@@ -12,10 +12,12 @@ socket.on('chat-message', data => {
     appendMessage(`${data.name}: ${data.message}`)
 })
 
+// user connect 
 socket.on('user-connected', name => {
     appendMessage(`${name} connected`)
 })
 
+// disconnect user 
 socket.on('user-disconnected', name => {
     appendMessage(`${name} disconnected`)
 })
