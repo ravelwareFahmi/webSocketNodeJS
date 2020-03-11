@@ -9,12 +9,15 @@ socket.emit('new-user', name)
 
 socket.on('chat-message', data => {
     // console.log(data);
-    appendMessage(data)
+    appendMessage(`${data.name}: ${data.message}`)
 })
 
 socket.on('user-connected', name => {
-    // console.log(data);
     appendMessage(`${name} connected`)
+})
+
+socket.on('user-disconnected', name => {
+    appendMessage(`${name} disconnected`)
 })
 
 messageForm.addEventListener('submit', e => {
