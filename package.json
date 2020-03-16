@@ -2,7 +2,7 @@
   "name": "webSocketNodeJS",
   "version": "1.0.0",
   "description": "web socket\r impelement form chat message",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
